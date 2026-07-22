@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informații Legale & Confidențialitate - DirectScan</title>
+    <style>
+        :root {
+            --primary: #f97316;
+            --primary-hover: #ea580c;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --bg-alt: #f8fafc;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            background-color: #ffffff;
+        }
+        nav {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(4px);
+            padding-top: 8px;
+            z-index: 10;
+        }
+        nav a {
+            padding: 8px 16px;
+            background: var(--bg-alt);
+            color: var(--text);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            border: 1px solid var(--border);
+        }
+        nav a:hover {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        h2 {
+            color: var(--text);
+            font-size: 1.35rem;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        h3 {
+            color: var(--text);
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p {
+            margin: 12px 0;
+        }
+        ul {
+            padding-left: 24px;
+            margin: 12px 0;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .legal-section {
+            margin-bottom: 60px;
+            scroll-margin-top: 80px;
+        }
+        .badge-warning {
+            background-color: #fff7ed;
+            border-left: 4px solid var(--primary);
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#politica-confidentialitate">Politica de Confidențialitate</a>
+        <a href="#termeni-conditii">Termeni și Condiții</a>
+    </nav>
+
+    <!-- POLITICA DE CONFIDENȚIALITATE -->
+    <section id="politica-confidentialitate" class="legal-section">
+        <h1>Politica de Confidențialitate</h1>
+        <p>Această Politică de Confidențialitate explică cum aplicația mobilă DirectScan („noi”, „Aplicația”) colectează, folosește, stochează și protejează datele tale personale.</p>
+        <p>Prin crearea unui cont, autentificare sau utilizarea funcțiilor Aplicației, îți exprimi acordul cu privire la practicile descrise mai jos, în conformitate cu Regulamentul (UE) 2016/679 (GDPR).</p>
+
+        <h2>2. Operatorul datelor</h2>
+        <p>Operatorul datelor cu caracter personal este Administratorul Aplicației DirectScan.</p>
+        <p>Pentru solicitări privind protecția datelor: <a href="mailto:directscan3@gmail.com">directscan3@gmail.com</a></p>
+
+        <h2>3. Date colectate</h2>
+        <h3>Date de cont și profil</h3>
+        <ul>
+            <li>adresă de email;</li>
+            <li>parolă (stocată criptat/hashuită prin Firebase Authentication – nu în clar);</li>
+            <li>poreclă / nume afișat (displayName), opțional;</li>
+            <li>poză de profil (dacă o încarci), stocată în profilul tău;</li>
+            <li>identificator cont (UID Firebase).</li>
+        </ul>
+
+        <h3>Date de sănătate și fitness (dacă le completezi)</h3>
+        <ul>
+            <li>sex, vârstă, înălțime, greutate (curentă, inițială, țintă);</li>
+            <li>nivel de activitate, obiectiv fitness;</li>
+            <li>țintă zilnică de calorii, BMR/TDEE calculate în Aplicație;</li>
+            <li>obiectiv zilnic de apă;</li>
+            <li>istoric greutate și înregistrări din jurnal.</li>
+        </ul>
+
+        <h3>Date de utilizare a Aplicației</h3>
+        <ul>
+            <li>istoric scanări (aditivi, nutriție, mese);</li>
+            <li>alimente și mese din jurnal, antrenamente, consum apă;</li>
+            <li>statistici agregate (calorii, aditivi, alimente frecvente etc.);</li>
+            <li>serie zilnică (streak) și date afișate în clasament (poreclă, serie, poză profil opțional);</li>
+            <li>preferințe și setări din profil.</li>
+        </ul>
+
+        <h3>Imagini și conținut încărcat de tine</h3>
+        <ul>
+            <li>fotografii trimise pentru scanare (etichete, ingrediente, mese);</li>
+            <li>imagini procesate pentru extragerea textului și analiză nutrițională.</li>
+        </ul>
+
+        <h3>Date tehnice</h3>
+        <ul>
+            <li>jurnale tehnice de erori și evenimente necesare funcționării și securității;</li>
+            <li>informații de sesiune și autentificare.</li>
+        </ul>
+
+        <h2>4. Scopul prelucrării</h2>
+        <p>Prelucrăm datele în scopuri precum:</p>
+        <ul>
+            <li>autentificare, administrare cont și securitate;</li>
+            <li>furnizarea funcțiilor de scanare, jurnal, profil și statistici;</li>
+            <li>calcul orientativ al țintei calorice și a progresului;</li>
+            <li>sincronizare între dispozitive prin contul tău;</li>
+            <li>afișarea clasamentului și a seriei zilnice;</li>
+            <li>îmbunătățirea Aplicației, remedierea erorilor și prevenirea abuzului;</li>
+            <li>respectarea obligațiilor legale.</li>
+        </ul>
+
+        <h2>5. Temeiul legal (GDPR)</h2>
+        <ul>
+            <li>executarea contractului / furnizarea serviciului solicitat de tine (cont, scanări, jurnal);</li>
+            <li>consimțământul tău, acolo unde este necesar (ex. încărcare poză profil, anumite permisiuni);</li>
+            <li>interesul legitim al nostru (securitate, îmbunătățirea serviciului, clasament);</li>
+            <li>obligații legale, când aplicabil.</li>
+        </ul>
+
+        <h2>6. Servicii terțe și transferuri</h2>
+        <p>Pentru funcționarea Aplicației folosim furnizori tehnologici. Datele pot fi prelucrate de:</p>
+        <ul>
+            <li>Google Firebase (autentificare, baze de date Firestore, hosting securizat);</li>
+            <li>Google Sign-In (dacă alegi această metodă de autentificare);</li>
+            <li>Google Gemini / servicii cloud Google – pentru analiza imaginilor de scanare (extragere text, interpretare nutrițională), transmisă securizat prin API;</li>
+            <li>Open Food Facts și alte surse publice de date nutriționale – la căutarea produselor;</li>
+            <li>magazinele de aplicații (Google Play, App Store) – pentru distribuție și actualizări.</li>
+        </ul>
+        <p>Nu vindem datele tale personale. Partajăm date doar în măsura necesară funcționării serviciilor de mai sus sau dacă legea o impune.</p>
+
+        <h2>7. Stocarea și securitatea</h2>
+        <ul>
+            <li>Datele de cont și profil sunt stocate în Firebase (Google Cloud), cu acces restricționat prin reguli de securitate.</li>
+            <li>Parolele nu sunt stocate în clar de către noi; gestionarea se face prin Firebase Authentication.</li>
+            <li>Comunicarea cu serverele se face prin conexiuni criptate (HTTPS/TLS).</li>
+            <li>Implementăm măsuri rezonabile de protecție; niciun sistem nu poate garanta securitate absolută.</li>
+        </ul>
+
+        <h2>8. Păstrarea datelor</h2>
+        <ul>
+            <li>Datele contului active sunt păstrate cât timp ai cont deschis.</li>
+            <li>La ștergerea contului, datele asociate sunt eliminate sau anonimizate în măsura posibilului tehnic, cu excepția situațiilor în care legea impune păstrarea.</li>
+            <li>Anumite jurnale tehnice pot fi păstrate temporar pentru securitate și audit.</li>
+        </ul>
+
+        <h2>9. Drepturile tale</h2>
+        <p>Conform GDPR, poți solicita:</p>
+        <ul>
+            <li>acces la datele tale personale;</li>
+            <li>rectificarea datelor inexacte (inclusiv din Setări / Profil);</li>
+            <li>ștergerea datelor („dreptul de a fi uitat”) – inclusiv prin ștergerea contului din Aplicație;</li>
+            <li>restricționarea sau opoziția la anumite prelucrări, în limitele legii;</li>
+            <li>portabilitatea datelor, unde este aplicabil;</li>
+            <li>retragerea consimțământului, fără a afecta legalitatea prelucrării anterioare.</li>
+        </ul>
+        <p>Pentru exercitarea drepturilor, scrie-ne la <a href="mailto:directscan3@gmail.com">directscan3@gmail.com</a>.</p>
+        <p>Ai dreptul de a depune plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP).</p>
+
+        <h2>10. Persoane minore</h2>
+        <p>Utilizatorii sub 18 ani pot folosi Aplicația doar cu acordul și supravegherea unui părinte sau tutore. Nu colectăm în mod intenționat date suplimentare sensibile despre minori în afara celor necesare funcționării contului.</p>
+
+        <h2>11. Modificarea politicii</h2>
+        <p>Putem actualiza această politică. Versiunea curentă este disponibilă în Aplicație la Setări → Politica de confidențialitate. Utilizarea continuă după actualizare implică acceptarea modificărilor.</p>
+
+        <h2>12. Contact</h2>
+        <p>Întrebări despre confidențialitate și date personale: <a href="mailto:directscan3@gmail.com">directscan3@gmail.com</a></p>
+    </section>
+
+    <!-- TERMENI ȘI CONDIȚII -->
+    <section id="termeni-conditii" class="legal-section">
+        <h1>Termeni și Condiții</h1>
+        <p>Prezentele Termeni și Condiții reglementează utilizarea aplicației mobile DirectScan („Aplicația”), disponibilă pe dispozitive mobile (Android și iOS). Te rugăm să le citești cu atenție înainte de a crea un cont sau de a folosi funcționalitățile Aplicației.</p>
+        <p>Prin instalarea, deschiderea, crearea unui cont sau utilizarea oricărei funcționalități a DirectScan (scanări, jurnal alimentar, profil, statistici etc.), confirmi că ai citit, înțeles și acceptat acești Termeni, Politica de Confidențialitate și orice notificări legale aplicabile. Dacă nu ești de acord, nu utiliza Aplicația și dezinstaleaz-o.</p>
+        <p>Administratorul Aplicației DirectScan poate fi contactat la: <a href="mailto:directscan3@gmail.com">directscan3@gmail.com</a></p>
+
+        <h2>II. Definiții</h2>
+        <p><strong>Aplicația:</strong> „DirectScan” – aplicația mobilă pentru smartphone și tabletă, prin care utilizatorii pot scana produse alimentare, consulta informații despre aditivi și ingrediente, își pot gestiona jurnalul alimentar, profilul de sănătate și alte funcționalități conexe.</p>
+        <p><strong>Utilizator:</strong> orice persoană care instalează, accesează sau utilizează Aplicația DirectScan.</p>
+        <p><strong>Administrator / Deținător:</strong> persoana fizică care dezvoltă, operează și pune la dispoziție Aplicația DirectScan.</p>
+        <p><strong>Cont:</strong> înregistrarea unui Utilizator în Aplicație, realizată prin adresă de email și parolă sau prin autentificare Google (Google Sign-In). Contul este necesar pentru accesul la funcționalitățile principale ale Aplicației.</p>
+        <p><strong>Scorul produsului:</strong> indicator orientativ (0–10) care rezumă profilul unui aliment din punct de vedere al aditivilor și al ingredientelor cu potențial controversat. Valori mai mari sugerează un profil mai „prietenos”; valori mai mici indică mai mulți aditivi sau ingrediente care necesită atenție.</p>
+        <p>Scorul este calculat după o formulă internă, pornind de la 10 și scăzând puncte în funcție de severitatea ingredientelor identificate:</p>
+        <ul>
+            <li>Verde: ingrediente considerate mai prietenoase – scădere redusă de puncte.</li>
+            <li>Portocaliu: risc moderat – scădere intermediară.</li>
+            <li>Roșu: risc ridicat – scădere mai mare; necesită atenție sporită.</li>
+        </ul>
+        <p><strong>Aditivi:</strong> substanțe adăugate deliberat în produse alimentare (conservanți, coloranți, îndulcitori, emulgatori etc.), clasificate în DirectScan după nivel de risc (verde, portocaliu, roșu), cu scop informativ.</p>
+
+        <h2>III. Descrierea serviciilor</h2>
+        <p>DirectScan oferă, în principal, următoarele categorii de funcționalități, destinate utilizării personale:</p>
+        
+        <h3>Scanare și analiză produse</h3>
+        <ul>
+            <li>scanarea listelor de ingrediente sau a etichetelor produselor (fotografie sau cameră);</li>
+            <li>identificarea aditivilor, a ingredientelor controversate și a alergenilor;</li>
+            <li>afișarea scorului produsului și a detaliilor despre ingrediente;</li>
+            <li>scanare nutrițională și scanare mese (estimare valori nutriționale pe baza imaginii).</li>
+        </ul>
+
+        <h3>Jurnal și profil de sănătate</h3>
+        <ul>
+            <li>jurnal alimentar zilnic (calorii, mese, alimente);</li>
+            <li>tracker de apă;</li>
+            <li>înregistrare antrenamente și calorii arse estimate;</li>
+            <li>profil fitness (greutate, obiective, vârstă, activitate) și calcul orientativ al țintei calorice;</li>
+            <li>istoric scanări și statistici.</li>
+        </ul>
+
+        <h3>Dicționare și informații</h3>
+        <ul>
+            <li>dicționar de aditivi, alergeni și ingrediente controversate;</li>
+            <li>pagini de detaliu pentru fiecare ingredient/aditiv identificat.</li>
+        </ul>
+
+        <h3>Cont, profil și clasament</h3>
+        <ul>
+            <li>creare cont, setări profil (poreclă, email, resetare parolă);</li>
+            <li>clasament și serie zilnică de activitate (streak), cu date publice limitate (ex. poreclă, serie).</li>
+        </ul>
+
+        <div class="badge-warning">
+            <p><strong>⚠️ Notă importantă de utilizare:</strong></p>
+            <ul>
+                <li>Serviciile sunt oferite cu scop informativ și educațional; nu constituie sfat medical, nutrițional sau dietetic.</li>
+                <li>Informațiile afișate pot conține erori din cauza calității imaginii, OCR, limitărilor bazelor de date sau a interpretării automate.</li>
+                <li>DirectScan nu înlocuiește consultul unui medic, nutriționist sau alt specialist. Pentru alergii, afecțiuni cronice sau diete speciale, consultă un profesionist.</li>
+                <li>Rezultatele scanării pot fi influențate de lumină, unghi, reflexii, fonturi de pe ambalaj, calitatea camerei și conexiunea la internet.</li>
+                <li>Scorul și clasificările au caracter strict orientativ și nu reprezintă o evaluare oficială a calității produsului.</li>
+                <li>Aplicația nu urmărește să descurajeze consumul anumitor mărci; scopul este transparența informațională asupra ingredientelor.</li>
+                <li>Unele funcții necesită conexiune la internet; fără rețea, anumite scanări sau sincronizări pot fi indisponibile.</li>
+            </ul>
+        </div>
+
+        <h2>IV. Conturi și utilizarea lor</h2>
+        <p>Fiecare utilizator poate deține un singur cont DirectScan.</p>
+        <p>Înregistrarea se face cu adresă de email și parolă sau prin autentificare Google.</p>
+        <p>Utilizatorul este responsabil pentru confidențialitatea datelor de autentificare și pentru activitatea desfășurată prin contul său.</p>
+        <p>La schimbarea emailului sau a parolei, utilizatorul trebuie să urmeze pașii de securitate indicați în Aplicație (confirmare email, parolă actuală etc.).</p>
+        <p>Dacă suspectezi acces neautorizat, contactează administratorul și schimbă parola sau revocă accesul Google.</p>
+        <p>Contul este destinat utilizării personale; nu poate fi partajat sau folosit pentru a accesa datele altor utilizatori.</p>
+        <p>Conturile sunt gratuite în forma actuală a Aplicației, fără plată obligatorie pentru funcțiile de bază.</p>
+        <p>Persoanele sub 18 ani pot crea cont doar cu acordul și sub supravegherea unui adult.</p>
+        <p>Contul poate fi șters din Setări → „Șterge contul”. Ștergerea este definitivă pentru datele asociate contului, în limitele tehnice și legale descrise în Politica de Confidențialitate.</p>
+        <p>Administratorul poate suspenda sau restricționa un cont în caz de abuz, fraudă sau încălcare a acestor Termeni.</p>
+
+        <h2>V. Permisiuni ale dispozitivului</h2>
+        <p>Pentru funcționare corectă, Aplicația poate solicita acces la:</p>
+        <ul>
+            <li>cameră – pentru scanări și poză de profil;</li>
+            <li>galerie foto – pentru încărcarea imaginilor de scanat;</li>
+            <li>internet – pentru autentificare, sincronizare și procesare scanări.</li>
+        </ul>
+        <p>Poți refuza permisiunile, însă unele funcții nu vor fi disponibile. Gestionează permisiunile din setările telefonului.</p>
+
+        <h2>VI. Condiții de utilizare și comportament interzis</h2>
+        <p>Este interzisă extragerea automatizată masivă de date din Aplicație (scraping, bot-uri), reproducerea sau redistribuirea conținutului fără acord scris al Administratorului.</p>
+        <p>Nu ai voie să partajezi datele de autentificare cu terți.</p>
+        <p>Nu ai voie să accesezi neautorizat conturile altor utilizatori sau infrastructura Aplicației.</p>
+        <p>Nu ai voie să distribui conținut ilegal, obscen sau dăunător prin intermediul Aplicației.</p>
+        <p>Nu ai voie să trimiți spam sau mesaje comerciale nesolicitate altor utilizatori.</p>
+        <p>Nu ai voie să introduci malware sau cod care afectează securitatea Aplicației sau a dispozitivelor altora.</p>
+        <p>Nu ai voie să folosești Aplicația în scopuri frauduloase, de phishing sau colectare neautorizată de date.</p>
+        <p>Nu ai voie să perturbi funcționarea Aplicației (atacuri, exploatarea vulnerabilităților etc.).</p>
+        <p>Ești responsabil să folosești informațiile obținute prin DirectScan în mod legal și etic.</p>
+        <p>Orice activitate suspectă legată de cont trebuie raportată prompt Administratorului.</p>
+
+        <h2>VII. Limitarea răspunderii</h2>
+        <p>DirectScan și Administratorul nu garantează acuratețea, completitudinea sau actualitatea permanentă a informațiilor afișate.</p>
+        <p>Utilizarea Aplicației se face pe propria răspundere. Nu ne asumăm răspunderea pentru deciziile alimentare, de sănătate sau comerciale luate pe baza informațiilor din Aplicație.</p>
+        <p>Nu răspundem pentru întreruperi ale serviciului (mentenanță, defecțiuni server, rețea, servicii terțe, actualizări de magazin etc.).</p>
+
+        <h2>VIII. Forță majoră</h2>
+        <p>În situații de forță majoră (căderi de servere, pene de curent, atacuri cibernetice, dezastre naturale, măsuri guvernamentale etc.), DirectScan nu poate fi tras la răspundere pentru indisponibilitatea totală sau parțială a serviciilor.</p>
+
+        <h2>IX. Modificarea Termenilor</h2>
+        <p>Ne rezervăm dreptul de a modifica acești Termeni. Versiunea actualizată va fi disponibilă în Aplicație (Setări → Termeni și condiții). Continuarea utilizării după modificare constituie acceptarea noilor Termeni.</p>
+
+        <h2>X. Contact</h2>
+        <p>Pentru întrebări, reclamații sau solicitări legate de DirectScan: <a href="mailto:directscan3@gmail.com">directscan3@gmail.com</a>.</p>
+        <p>Încercăm să soluționăm situațiile, în primă fază, pe cale amiabilă.</p>
+    </section>
+
+    <div class="footer">
+        <p>&copy; DirectScan. Toate drepturile rezervate.</p>
+    </div>
+
+</body>
+</html>
